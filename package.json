@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "egg logger for aliyun sls",
   "eggPlugin": {
-    "name": "loggerSls"
+    "name": "loggerSlsPro"
   },
   "keywords": [
     "egg",
@@ -47,12 +47,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zijin-m/egg-logger-sls.git"
+    "url": "git+https://github.com/zijin-m/egg-logger-sls-pro.git"
   },
   "bugs": {
-    "url": "https://github.com/zijin-m/egg-logger-sls.git/issues"
+    "url": "https://github.com/zijin-m/egg-logger-sls-pro.git/issues"
   },
-  "homepage": "https://github.com/zijin-m/egg-logger-sls.git#readme",
+  "homepage": "https://github.com/zijin-m/egg-logger-sls-pro.git#readme",
   "author": "zijin",
   "license": "MIT"
 }

@@ -1,4 +1,4 @@
-# egg-logger-sls
+# egg-logger-sls-pro
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-logger-sls.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-logger-sls
-[travis-image]: https://img.shields.io/travis/eggjs/egg-logger-sls.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-logger-sls
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-logger-sls.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-logger-sls?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-logger-sls.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-logger-sls
-[snyk-image]: https://snyk.io/test/npm/egg-logger-sls/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-logger-sls
-[download-image]: https://img.shields.io/npm/dm/egg-logger-sls.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-logger-sls
+[npm-image]: https://img.shields.io/npm/v/egg-logger-sls-pro.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/egg-logger-sls-pro
+[travis-image]: https://img.shields.io/travis/eggjs/egg-logger-sls-pro.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eggjs/egg-logger-sls-pro
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-logger-sls-pro.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/eggjs/egg-logger-sls-pro?branch=master
+[david-image]: https://img.shields.io/david/eggjs/egg-logger-sls-pro.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs/egg-logger-sls-pro
+[snyk-image]: https://snyk.io/test/npm/egg-logger-sls-pro/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/egg-logger-sls-pro
+[download-image]: https://img.shields.io/npm/dm/egg-logger-sls-pro.svg?style=flat-square
+[download-url]: https://npmjs.org/package/egg-logger-sls-pro
 
 <!--
 Description here.
@@ -28,12 +28,13 @@ Description here.
 
 ### 依赖的 egg 版本
 
-egg-logger-sls 版本 | egg 1.x
---- | ---
-1.x | 😁
-0.x | ❌
+| egg-logger-sls-pro 版本 | egg 1.x |
+| ----------------------- | ------- |
+| 1.x                     | 😁      |
+| 0.x                     | ❌      |
 
 ### 依赖的插件
+
 <!--
 
 如果有依赖其它插件，请在这里特别说明。如
@@ -47,16 +48,16 @@ egg-logger-sls 版本 | egg 1.x
 
 ```js
 // config/plugin.js
-exports.loggerSls = {
+exports.loggerSlsPro = {
   enable: true,
-  package: 'egg-logger-sls',
+  package: 'egg-logger-sls-pro'
 };
 ```
 
 ## 使用场景
 
 - Why and What: 描述为什么会有这个插件，它主要在完成一件什么事情。
-尽可能描述详细。
+  尽可能描述详细。
 - How: 描述这个插件是怎样使用的，具体的示例代码，甚至提供一个完整的示例，并给出链接。
 
 ## 详细配置

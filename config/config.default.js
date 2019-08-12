@@ -1,11 +1,11 @@
 'use strict';
 
 /**
- * egg-logger-sls default config
+ * egg-logger-sls-pro default config
  * @member Config#loggerSls
  * @property {String} SOME_KEY - some description
  */
-exports.loggerSls = {
+exports.loggerSlsPro = {
   level: 'INFO',
   flushInterval: 1000,
   maxBufferLength: 1000,

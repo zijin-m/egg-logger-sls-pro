@@ -15,9 +15,10 @@ describe('test/logger-sls.test.js', () => {
   afterEach(mock.restore);
 
   it('should GET /', () => {
-    return app.httpRequest()
+    return app
+      .httpRequest()
       .get('/')
-      .expect('hi, loggerSls')
+      .expect('hi, loggerSlsPro')
       .expect(200);
   });
 });
