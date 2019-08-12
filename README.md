@@ -83,23 +83,22 @@ your can set formatter fn in config to do this, just like
 
 ```
 exports.loggerSlsPro = {
-	sls: {
-		// ...other config
-		// your formatter
-		formatter: (level, args, meta) {
-			// your formatter code here
-			// must return like this
-			return {
-				time: 1565615342, // unix sec
-				contents: [
-				  {
-					key: 'key',
-					value: 'value'
-				  }
-				]}
-		}
-
-	}
+  sls: {
+    // ...other config
+    // your formatter
+    formatter: (level, args, meta) {
+    // your formatter code here
+    // must return like this
+      return {
+        time: 1565615342, // unix sec
+        contents: [
+          {
+            key: 'key',
+            value: 'value'
+          }
+        ]}
+      }
+  }
 }
 
 ```
