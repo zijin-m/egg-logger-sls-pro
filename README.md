@@ -85,7 +85,7 @@ your can set formatter fn in config to do this, just like
 exports.loggerSlsPro = {
 	sls: {
 		// ...other config
-		// ypur formatter
+		// your formatter
 		formatter: (level, args, meta) {
 			// your formatter code here
 			// must return like this
