@@ -1,6 +1,6 @@
 {
   "name": "egg-logger-sls-pro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "egg logger for aliyun sls",
   "eggPlugin": {
     "name": "loggerSlsPro"
