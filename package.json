@@ -1,6 +1,6 @@
 {
   "name": "egg-logger-sls-pro",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "egg logger for aliyun sls",
   "eggPlugin": {
     "name": "loggerSlsPro"
@@ -11,7 +11,8 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "aliyun-sdk": "^1.12.2"
+    "aliyun-sdk": "^1.12.2",
+    "ramda": "^0.26.1"
   },
   "devDependencies": {
     "autod": "^3.0.1",
